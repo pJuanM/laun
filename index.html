@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container" onclick="toggleCard()">
+    <div class="card" onclick="toggleCard(this)">
+      <div class="front">
+        <div class="content">
+          <h1>CLIQUE!</h1>
+          <p>Amor, sério mesmo, te amo demais, eu não tive muita criatividade porém fiz tipo umas cartas pra nos</p>
+        </div>
+      </div>
+      <div class="back">
+        <div class="content">
+          <h1k></h1>
+          <p></p>
+      </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="front">
+        <div class="content">
+          <h1>CLIQUE!</h1>
+          <p>Lembrarmos de algo que já aconteceu, algo que possa aquecer seu coração, fiz especialmente pensando na sua péssima memória.</p>
+        </div>
+      </div>
+      <div class="back back2">
+        <div class="content">    
+      </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="front">
+        <div class="content">
+          <h1>CLIQUE!</h1>
+          <p>Sei que é bem simples, porém saiba que foi feito com muito amor vida, vai ser algo rápido, mas lembra dos momentos que fica melhor te amooooooo!!!! </p>
+        </div>
+      </div>
+      <div class="back back3">
+        <div class="content">
+          <h1></h1>
+          <p></p>
+      </div>
+      </div>
+    </div>
+    <button id="playButton">Reproduzir Música</button>
+
+    <audio id="myAudio">
+        <!-- Adicione o caminho do arquivo de áudio que você quer reproduzir -->
+        <source src="wpp.mpeg" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
